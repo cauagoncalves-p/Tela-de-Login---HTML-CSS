@@ -118,12 +118,35 @@ h1{
 
 /*Responsividade*/
 
-@media (max-width:480px){
-    .container{
+@media (max-width: 480px) {
+    .container {
         width: 90%;
+        padding: 2rem;
     }
 
-    h1{
-        font-size: 2rem;
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .input-container {
+        margin: 1rem 0;
+    }
+
+    
+    .input-container:nth-child(3){
+        margin-top: 1rem;
+    }
+ 
+
+    .input-container input {
+        padding: 1rem;
+    }
+
+    .submit-button {
+        margin-top: 1rem;
+    }
+
+    .register-link p {
+        font-size:1rem
     }
 }
