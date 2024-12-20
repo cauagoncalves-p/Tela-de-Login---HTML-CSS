@@ -116,7 +116,7 @@ h1{
     text-decoration: underline;
 }
 
-/*Responsvidade*/
+/*Responsividade*/
 
 @media (max-width:480px){
     .container{
